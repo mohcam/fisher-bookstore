@@ -13,7 +13,7 @@ namespace Fisher.Bookstore.Controllers
     // This method add the controller for the booksIndex
         public  IActionResult Index()
         {
-            return Content("This is the AuthorController Index");
+             return View();
         }
     // This method add the controller for the new Book
 
